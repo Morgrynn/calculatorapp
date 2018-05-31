@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>JavaScript Calculator</h1>
+    <div id="calculator">
+        <form>
+            <input type="text" id="display" disabled>
+            <br>
+            <input type="button" value="C" id="keys" onclick="toScreen('c')">
+            <input type="button" value="CE" id="keys" onclick="backspace()">
+            <input type="button" value="X^2" id="keys" onclick="power()">
+            <input type="button" value="/" id="keys" onclick="toScreen('/')">
+            <br>
+            <input type="button" value="7" id="keys" onclick="toScreen('7')">
+            <input type="button" value="8" id="keys" onclick="toScreen('8')">
+            <input type="button" value="9" id="keys" onclick="toScreen('9')">
+            <input type="button" value="*" id="keys" onclick="toScreen('*')">
+            <br>
+            <input type="button" value="4" id="keys" onclick="toScreen('4')">
+            <input type="button" value="5" id="keys" onclick="toScreen('5')">
+            <input type="button" value="6" id="keys" onclick="toScreen('6')">
+            <input type="button" value="-" id="keys" onclick="toScreen('-')">
+            <br>
+            <input type="button" value="1" id="keys" onclick="toScreen('1')">
+            <input type="button" value="2" id="keys" onclick="toScreen('2')">
+            <input type="button" value="3" id="keys" onclick="toScreen('3')">
+            <input type="button" value="+" id="keys" onclick="toScreen('+')">
+            <br>
+            <input type="button" value="0" id="keys" onclick="toScreen('0')">
+            <input type="button" value="." id="keys" onclick="toScreen('.')">
+            <input type="button" value="=" id="equals" onclick="equals()">
+            <br>
+        </form>
+        
+                
+            </div>
+            
+          
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
