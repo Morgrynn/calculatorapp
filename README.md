@@ -1,2 +1,3 @@
-#JavaScript Calculator App
+##JavaScript Calculator App
+
 This is a tutorial project.
