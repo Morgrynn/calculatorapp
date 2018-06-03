@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,19 +22,19 @@
             <input type="button" value="CE" id="keys" onclick="backspace()">
             <input type="button" value="X^2" id="keys" onclick="power()">
             <input type="button" value="/" id="keys" onclick="toScreen('/')">
-            <input type="button" value="(" id="keys" onclick="toScreen('(')"
+            <input type="button" value="(" id="keys" onclick="toScreen('(')">
             <br>
             <input type="button" value="7" id="keys" onclick="toScreen('7')">
             <input type="button" value="8" id="keys" onclick="toScreen('8')">
             <input type="button" value="9" id="keys" onclick="toScreen('9')">
             <input type="button" value="*" id="keys" onclick="toScreen('*')">
-            <input type="button" value=")" id="keys" onclick="toScreen(')')"
+            <input type="button" value=")" id="keys" onclick="toScreen(')')">
             <br>
             <input type="button" value="4" id="keys" onclick="toScreen('4')">
             <input type="button" value="5" id="keys" onclick="toScreen('5')">
             <input type="button" value="6" id="keys" onclick="toScreen('6')">
             <input type="button" value="-" id="keys" onclick="toScreen('-')">
-            <input type="button" value="%" id="keys" onclick="toScreen('%')"
+            <input type="button" value="%" id="keys" onclick="toScreen('%')">
             <br>
             <input type="button" value="1" id="keys" onclick="toScreen('1')">
             <input type="button" value="2" id="keys" onclick="toScreen('2')">
@@ -47,17 +48,74 @@
             <input type="button" value="=" id="equals" onclick="answer()">
             <br>
         </form>
+    </div>
+    <div align="center">
+        <form name="Calculator">
         
-                
-            </div>
-            
-          
+        <table width="30%" border="4">
+            <tr> <!-- Top Panel -->
+                <td colspan="2" align="center">A Simple JavaScript Calculator<br>
+                <input type="text" maxlength="40" size="30" name="Display">
+                    </td>
+            </tr> <!-- End Top Panel -->
+            <tr>
+                <td><!-- Left Panel -->
+                    <table>
+                        <tr>
+                            <td><input type="button" value="7"></td>
+                            <td><input type="button" value="8"></td>
+                            <td><input type="button" value="9"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="4"></td>
+                            <td><input type="button" value="5"></td>
+                            <td><input type="button" value="6"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="1"></td>
+                            <td><input type="button" value="2"></td>
+                            <td><input type="button" value="3"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="+/-"></td>
+                            <td><input type="button" value="0"></td>
+                            <td><input type="button" value="."></td>
+                        </tr>
+                    </table>
+                </td> <!-- End Left Panel -->
+                <td> <!-- Right Panel -->
+                    <table>
+                        <tr>
+                            <td><input type="button" value="C"></td>
+                            <td><input type="button" value="AC"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="*"></td>
+                            <td><input type="button" value="/"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="+"></td>
+                            <td><input type="button" value="-"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="="></td>
+                            <td><input type="button" value="EXP"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+            </form>
+    </div>
+
+
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    
+
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
